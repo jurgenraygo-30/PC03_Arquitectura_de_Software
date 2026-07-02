@@ -16,8 +16,7 @@ No fue posible aprovisionar el entorno local de desarrollo ni levantar la red de
 Se presentaron dos bloqueantes críticos de infraestructura:
 * **Degradación de red (Timeouts):** Existió una limitación severa de ancho de banda en la red local que impidió la descarga exitosa de los instaladores y de las imágenes de los contenedores requeridas por el archivo `docker-compose.yml`. La baja velocidad generó cortes por *timeout* en el *pulling* de las imágenes.
 * **Falla de Virtualización:** Durante los intentos de configuración de la capa base de Docker, el host local arrojó un error de soporte de virtualización (*"Virtualization support not detected"*). Esto indica un conflicto en el subsistema de Windows (WSL 2 / Hypervisor) que impide abstraer el hardware.
-
-* <img width="1586" height="900" alt="Captura de pantalla 2026-07-01 185838" src="https://github.com/user-attachments/assets/1d44dbeb-a198-4fc9-ab28-b0dbeef58bd7" />
+<img width="1586" height="900" alt="Captura de pantalla 2026-07-01 185838" src="https://github.com/user-attachments/assets/1d44dbeb-a198-4fc9-ab28-b0dbeef58bd7" />
 
 
 **C. Qué evidencia alternativa se usó:**
